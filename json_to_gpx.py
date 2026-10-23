@@ -202,7 +202,7 @@ def main():
 
     points = extract_gps_points(data)
 
-    print(f"Extracted {len(pointsh:,} GPS points")
+    print(f"Extracted {len(points):,} GPS points")
 
     if not points:
         raise RuntimeError(
